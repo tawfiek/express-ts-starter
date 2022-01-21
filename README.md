@@ -1,4 +1,4 @@
-# steps to dockerized 
+# Express Typescript Starter
 
-docker build -t am .
-docker run -p 4000:4000 -d am
+A starter repo for an express service using typescript
+
