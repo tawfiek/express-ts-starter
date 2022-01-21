@@ -1,7 +1,9 @@
 import { json, urlencoded } from 'body-parser';
 import * as cors from 'cors';
 import * as express from 'express';
-import routes from './src/routes';
+import routes from './routes';
+import logger from './middlewares/logger';
+import errorHandler from './middlewares/error-handler';
 
 const app = express();
 const port = 3000;
